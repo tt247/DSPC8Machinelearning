@@ -3,7 +3,7 @@
 y <- heights$sex
 x <- heights$height
 
-set.seed(2)
+set.seed(2, sample.kind="Rounding")
 
 #Creating test data and learning data
 
