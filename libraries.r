@@ -5,3 +5,5 @@ library(dslabs)
 
 data(heights)
 
+# needed to resolve error e1071 with Caret package
+install.packages('e1071', dependencies=TRUE)
