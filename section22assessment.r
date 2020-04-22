@@ -69,3 +69,4 @@ dat %>%
   group_by(g) %>%
   summarize(y =(y), x =(x)) %>%
   qplot(x, y, data =.)
+

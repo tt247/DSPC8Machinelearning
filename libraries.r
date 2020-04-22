@@ -4,6 +4,7 @@ library(caret)
 library(dslabs)
 library(dplyr)
 library(lubridate)
+library(HistData)
 
 data(heights)
 data(reported_heights)
