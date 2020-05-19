@@ -5,6 +5,7 @@ library(dslabs)
 library(dplyr)
 library(lubridate)
 library(HistData)
+library(matrixStats)
 
 data(heights)
 data(reported_heights)
